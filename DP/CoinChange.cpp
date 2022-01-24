@@ -38,7 +38,7 @@ class Solution {
     // solve
     return solve(S, m - 1, n, dp); // m-1 indexing
     }
-};
+}; 
 
 // { Driver Code Starts.
 int main() {
