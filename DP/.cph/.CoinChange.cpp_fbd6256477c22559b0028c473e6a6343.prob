@@ -1,0 +1,1 @@
+{"name":"Local: CoinChange","url":"d:\\DSA\\DP\\CoinChange.cpp","tests":[{"id":1643004265488,"input":"2\n4 3\n1 2 3\n10 4\n2 5 3 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA\\DP\\CoinChange.cpp","group":"local","local":true}
