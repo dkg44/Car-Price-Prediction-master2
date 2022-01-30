@@ -32,7 +32,7 @@ int CountSubsetSum(int a[], int n, int sum)
     return dp[n][sum];
 }
 
-int countWithGivenSum(int arr[], int n, int diff)
+int countWithGivenDiff(int arr[], int n, int diff)
 {
     int sum = 0;
     for (int i = 0; i < n; i++)
