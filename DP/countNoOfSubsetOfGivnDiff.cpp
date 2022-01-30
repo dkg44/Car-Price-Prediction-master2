@@ -6,7 +6,7 @@ Therefore adding both eq we get :
 s1= (diff + sum of array)/2;
 */
 
-int subsetSum(int a[], int n, int sum)
+int CountSubsetSum(int a[], int n, int sum)
 {
     // Initializing the matrix
     int dp[n + 1][sum + 1];
@@ -39,5 +39,5 @@ int countWithGivenSum(int arr[], int n, int diff)
         sum += arr[i];
 
     int reqSum = (diff + sum) / 2;
-    return subsetSum(arr, n, reqSum);
+    return CountSubsetSum(arr, n, reqSum);
 }
