@@ -11,7 +11,7 @@ int CountSubsetSum(int a[], int n, int sum)
     // Initializing the matrix
     int dp[n + 1][sum + 1];
     // Initializing the first value of matrix
-   // dp[0][0] = 1;
+    dp[0][0] = 1;
     for (int i = 1; i <= sum; i++)
         dp[0][i] = 0;
     for (int i = 1; i <= n; i++)
