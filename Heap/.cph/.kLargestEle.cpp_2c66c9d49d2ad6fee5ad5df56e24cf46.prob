@@ -1,0 +1,1 @@
+{"name":"Local: kLargestEle","url":"d:\\DSA\\Heap\\kLargestEle.cpp","tests":[{"id":1645291312749,"input":"1\n5 2\n12 5 787 1 23","output":"787 23"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA\\Heap\\kLargestEle.cpp","group":"local","local":true}
